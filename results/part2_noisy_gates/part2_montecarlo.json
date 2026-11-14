@@ -1,0 +1,50 @@
+{
+ "C1X12": {
+  "residual (after calibration): flux 0.05 MHz, coupler 0.2 %, amp 0.2 %": {
+   "F_pro": 0.9853875966150731,
+   "F_pro_std": 0.0012448851462480573,
+   "pop_mean": 0.9908765087189313,
+   "leak": 0.0008408949762137019,
+   "K": 8
+  },
+  "stress (uncalibrated): flux 0.3 MHz, coupler 2 %, amp 1 %": {
+   "F_pro": 0.8854733918385849,
+   "F_pro_std": 0.10951126645762196,
+   "pop_mean": 0.9875466430621622,
+   "leak": 0.0017027766848267678,
+   "K": 8
+  }
+ },
+ "C2X01": {
+  "residual (after calibration): flux 0.05 MHz, coupler 0.2 %, amp 0.2 %": {
+   "F_pro": 0.9882351454605879,
+   "F_pro_std": 0.0030216764280671595,
+   "pop_mean": 0.9943668324847422,
+   "leak": 0.0006421977235543663,
+   "K": 8
+  },
+  "stress (uncalibrated): flux 0.3 MHz, coupler 2 %, amp 1 %": {
+   "F_pro": 0.8040728330790899,
+   "F_pro_std": 0.2136141390907628,
+   "pop_mean": 0.9857339857844053,
+   "leak": 0.0022576999153229582,
+   "K": 8
+  }
+ },
+ "C2X12": {
+  "residual (after calibration): flux 0.05 MHz, coupler 0.2 %, amp 0.2 %": {
+   "F_pro": 0.935281833062712,
+   "F_pro_std": 0.0336654840944831,
+   "pop_mean": 0.9740123190161347,
+   "leak": 0.003950404870077057,
+   "K": 8
+  },
+  "stress (uncalibrated): flux 0.3 MHz, coupler 2 %, amp 1 %": {
+   "F_pro": 0.4625678360448492,
+   "F_pro_std": 0.3036456657444965,
+   "pop_mean": 0.8980894095976685,
+   "leak": 0.003599800902487904,
+   "K": 8
+  }
+ }
+}
