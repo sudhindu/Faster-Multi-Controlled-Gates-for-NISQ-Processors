@@ -1,0 +1,53 @@
+{
+ "C1X12": {
+  "g_on_MHz": 43.16933338003182,
+  "active_control_level": 1,
+  "transition": "1->2",
+  "branch_freq_GHz": {
+   "0": 4.846968825486953,
+   "1": 4.893810622802214,
+   "2": 4.978093557711897
+  },
+  "separation_MHz": {
+   "0": 46.841797315260614,
+   "2": 84.28293490968386
+  },
+  "nearest_separation_MHz": 46.841797315260614,
+  "largest_separation_MHz": 84.28293490968386,
+  "dfreq_dg_MHz_per_MHz": 0.5724461520628665
+ },
+ "C2X01": {
+  "g_on_MHz": 46.30729261417506,
+  "active_control_level": 2,
+  "transition": "0->1",
+  "branch_freq_GHz": {
+   "0": 5.210201476166406,
+   "1": 5.245776206405032,
+   "2": 5.180573535185082
+  },
+  "separation_MHz": {
+   "0": 29.627940981324485,
+   "1": 65.20267121995005
+  },
+  "nearest_separation_MHz": 29.627940981324485,
+  "largest_separation_MHz": 65.20267121995005,
+  "dfreq_dg_MHz_per_MHz": -0.4934303886416913
+ },
+ "C2X12": {
+  "g_on_MHz": 52.16161260916068,
+  "active_control_level": 2,
+  "transition": "1->2",
+  "branch_freq_GHz": {
+   "0": 4.8348297372327815,
+   "1": 4.899266229554437,
+   "2": 5.010190778207642
+  },
+  "separation_MHz": {
+   "0": 175.3610409748605,
+   "1": 110.92454865320533
+  },
+  "nearest_separation_MHz": 110.92454865320533,
+  "largest_separation_MHz": 175.3610409748605,
+  "dfreq_dg_MHz_per_MHz": 3.6232330323127115
+ }
+}
