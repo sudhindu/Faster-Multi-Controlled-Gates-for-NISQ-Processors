@@ -1,0 +1,26 @@
+Artifact for the paper "Faster Multi-Controlled Gates for NISQ Processors: Phase-Aware Qutrit Pulse
+Design and Pulse-Level Compilation" (anonymous submission, DAC 2027).
+Copyright 2026 The authors (names withheld for double-blind review).
+
+Code, results and documentation in this repository are licensed under the Apache License 2.0 (see LICENSE),
+except for the third-party data listed below.
+
+Third-party data
+  data/benchmarks_amm/   Quipper-format benchmark circuits (Amy-Maslov-Mosca arithmetic and Toffoli suite,
+                         "*_before") and the optimized circuits of Nam et al. ("*_after_heavy"), copied
+                         unchanged from the PyZX repository (github.com/Quantomatic/pyzx, folder
+                         circuits/Arithmetic_and_Toffoli), which is distributed under the Apache License 2.0.
+                         Original sources:
+                           M. Amy, D. Maslov, M. Mosca, IEEE TCAD 33(10), 2014;
+                           Y. Nam, N. J. Ross, Y. Su, A. M. Childs, D. Maslov, npj Quantum Inf. 4, 23 (2018);
+                           A. Kissinger, J. van de Wetering, PyZX, QPL 2019 (EPTCS 318, 2020).
+
+Software dependencies (installed with pip, not redistributed here)
+  numpy, scipy (BSD-3-Clause); matplotlib (Matplotlib license, BSD-compatible); QuTiP (BSD-3-Clause);
+  Qiskit, Qiskit Aer, qiskit-ibm-runtime (Apache-2.0).
+
+Trademarks
+  IBM, Qiskit, Heron, Eagle and the device names (Kingston, Nighthawk, Fez, Torino, Brisbane) are
+  trademarks of IBM. The IBM numbers in this repository are simulations with the public calibration
+  snapshots ("fake back-ends") of qiskit-ibm-runtime 0.51.0, not runs on IBM hardware. This work is not
+  affiliated with or endorsed by IBM.

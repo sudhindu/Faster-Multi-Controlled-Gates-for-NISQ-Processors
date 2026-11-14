@@ -1,0 +1,10 @@
+# Tested with Python 3.13 on Linux (2 cores). Python >= 3.10 should work.
+# The IBM baselines depend on the calibration snapshots shipped with qiskit-ibm-runtime,
+# so keep the qiskit-* versions pinned to reproduce the IBM numbers exactly.
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.7
+qutip>=5.0
+qiskit==2.6.2
+qiskit-aer==0.18.2
+qiskit-ibm-runtime==0.51.0
