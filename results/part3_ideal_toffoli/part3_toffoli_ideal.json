@@ -1,0 +1,108 @@
+{
+ "ours": {
+  "T_gates_ns": 180,
+  "T_total_ns": 200.0,
+  "n_two_body": 3,
+  "n_single": 0,
+  "total_pulses": 3,
+  "depth": 3,
+  "succ": {
+   "000": 0.9835039665550459,
+   "001": 0.9834772812051875,
+   "010": 0.9899853563053284,
+   "011": 0.9897192598128288,
+   "100": 0.9815352348310611,
+   "101": 0.9813918359500364,
+   "110": 0.9908089024507971,
+   "111": 0.9906641738621987
+  },
+  "succ_mean": 0.9863857513715605,
+  "succ_min": 0.9813918359500364,
+  "F_pro": 0.9854524016573439,
+  "F_avg": 0.9870414058426226,
+  "leak": 0.0002465606751482774,
+  "final_virtual_Z": [
+   -0.03754422962157464,
+   -0.08514969205569022,
+   -0.003928354149889017
+  ]
+ },
+ "ibm": {
+  "FakeKingston": {
+   "duration_ns": 828.0000000000001,
+   "n2q": 7,
+   "n1q_pulses": 16,
+   "total_pulses": 23,
+   "depth_pulses": 18,
+   "T1_median_us": 282.8207987984761
+  },
+  "FakeNighthawk": {
+   "duration_ns": 828.0000000000001,
+   "n2q": 7,
+   "n1q_pulses": 16,
+   "total_pulses": 23,
+   "depth_pulses": 18,
+   "T1_median_us": 272.7900837906601
+  },
+  "FakeFez": {
+   "duration_ns": 852.0000000000001,
+   "n2q": 7,
+   "n1q_pulses": 16,
+   "total_pulses": 23,
+   "depth_pulses": 18,
+   "T1_median_us": 144.85526609546147
+  },
+  "FakeTorino": {
+   "duration_ns": 876.0000000000001,
+   "n2q": 7,
+   "n1q_pulses": 16,
+   "total_pulses": 23,
+   "depth_pulses": 18,
+   "T1_median_us": 184.9874260203931
+  },
+  "FakeBrisbane": {
+   "duration_ns": 5520.000000000001,
+   "n2q": 7,
+   "n1q_pulses": 23,
+   "total_pulses": 30,
+   "depth_pulses": 22,
+   "T1_median_us": 231.95327941729698
+  }
+ },
+ "ibm_all_to_all": {
+  "n2q": 6,
+  "n1q_pulses": 15,
+  "total_pulses": 21,
+  "depth_pulses": 16
+ },
+ "others": {
+  "Galda et al.": {
+   "T_total_ns": 1590,
+   "total_pulses": 12,
+   "n_two_body": 4,
+   "n_single": 8,
+   "source": "reported time; pulse count from their circuit"
+  },
+  "Nikolaeva et al.": {
+   "T_total_ns": null,
+   "total_pulses": 8,
+   "n_two_body": 4,
+   "n_single": 4,
+   "source": "pulse count from their circuit"
+  },
+  "Galda-type on this platform (estimate)": {
+   "T_total_ns": 440.0,
+   "total_pulses": 12,
+   "n_two_body": 4,
+   "n_single": 8,
+   "source": "4 two-qutrit x 60 ns + 8 single-qutrit x 25 ns (assumed)"
+  },
+  "Nikolaeva-type on this platform (estimate)": {
+   "T_total_ns": 340.0,
+   "total_pulses": 8,
+   "n_two_body": 4,
+   "n_single": 4,
+   "source": "4 two-qutrit x 60 ns + 4 single-qutrit x 25 ns (assumed)"
+  }
+ }
+}

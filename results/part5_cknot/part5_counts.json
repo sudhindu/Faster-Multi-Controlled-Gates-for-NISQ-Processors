@@ -1,0 +1,263 @@
+{
+ "2": {
+  "logic_ok": true,
+  "qutrit": {
+   "total_pulses": 3,
+   "n_two_qutrit": 3,
+   "n_single": 0,
+   "depth": 3,
+   "T_gates_ns": 180,
+   "T_flux_ns": 20.0,
+   "T_total_ns": 200.0
+  },
+  "ibm_all_to_all": {
+   "n2q": 6,
+   "n1q_pulses": 15,
+   "total_pulses": 21,
+   "depth_pulses": 16
+  },
+  "ibm_all_to_all_ancilla": {
+   "n2q": 6,
+   "n1q_pulses": 15,
+   "total_pulses": 21,
+   "depth_pulses": 16
+  },
+  "gokhale_estimate": {
+   "n_two_qutrit": 12,
+   "n_single": 14,
+   "total_pulses": 26
+  }
+ },
+ "3": {
+  "logic_ok": true,
+  "qutrit": {
+   "total_pulses": 5,
+   "n_two_qutrit": 5,
+   "n_single": 0,
+   "depth": 5,
+   "T_gates_ns": 520,
+   "T_flux_ns": 40.0,
+   "T_total_ns": 560.0
+  },
+  "ibm_all_to_all": {
+   "n2q": 14,
+   "n1q_pulses": 33,
+   "total_pulses": 47,
+   "depth_pulses": 40
+  },
+  "ibm_all_to_all_ancilla": {
+   "n2q": 12,
+   "n1q_pulses": 28,
+   "total_pulses": 40,
+   "depth_pulses": 33
+  },
+  "gokhale_estimate": {
+   "n_two_qutrit": 18,
+   "n_single": 21,
+   "total_pulses": 39
+  }
+ },
+ "4": {
+  "logic_ok": true,
+  "qutrit": {
+   "total_pulses": 7,
+   "n_two_qutrit": 7,
+   "n_single": 0,
+   "depth": 7,
+   "T_gates_ns": 860,
+   "T_flux_ns": 60.0,
+   "T_total_ns": 920.0
+  },
+  "ibm_all_to_all": {
+   "n2q": 36,
+   "n1q_pulses": 84,
+   "total_pulses": 120,
+   "depth_pulses": 91
+  },
+  "ibm_all_to_all_ancilla": {
+   "n2q": 18,
+   "n1q_pulses": 44,
+   "total_pulses": 62,
+   "depth_pulses": 49
+  },
+  "gokhale_estimate": {
+   "n_two_qutrit": 24,
+   "n_single": 28,
+   "total_pulses": 52
+  }
+ },
+ "5": {
+  "logic_ok": true,
+  "qutrit": {
+   "total_pulses": 9,
+   "n_two_qutrit": 9,
+   "n_single": 0,
+   "depth": 9,
+   "T_gates_ns": 1200,
+   "T_flux_ns": 80.0,
+   "T_total_ns": 1280.0
+  },
+  "ibm_all_to_all": {
+   "n2q": 80,
+   "n1q_pulses": 203,
+   "total_pulses": 283,
+   "depth_pulses": 145
+  },
+  "ibm_all_to_all_ancilla": {
+   "n2q": 24,
+   "n1q_pulses": 60,
+   "total_pulses": 84,
+   "depth_pulses": 63
+  },
+  "gokhale_estimate": {
+   "n_two_qutrit": 30,
+   "n_single": 35,
+   "total_pulses": 65
+  }
+ },
+ "6": {
+  "logic_ok": true,
+  "qutrit": {
+   "total_pulses": 11,
+   "n_two_qutrit": 11,
+   "n_single": 0,
+   "depth": 11,
+   "T_gates_ns": 1540,
+   "T_flux_ns": 100.0,
+   "T_total_ns": 1640.0
+  },
+  "ibm_all_to_all": {
+   "n2q": 120,
+   "n1q_pulses": 315,
+   "total_pulses": 435,
+   "depth_pulses": 189
+  },
+  "ibm_all_to_all_ancilla": {
+   "n2q": 30,
+   "n1q_pulses": 76,
+   "total_pulses": 106,
+   "depth_pulses": 79
+  },
+  "gokhale_estimate": {
+   "n_two_qutrit": 36,
+   "n_single": 42,
+   "total_pulses": 78
+  }
+ },
+ "7": {
+  "logic_ok": true,
+  "qutrit": {
+   "total_pulses": 13,
+   "n_two_qutrit": 13,
+   "n_single": 0,
+   "depth": 13,
+   "T_gates_ns": 1880,
+   "T_flux_ns": 120.0,
+   "T_total_ns": 2000.0
+  },
+  "ibm_all_to_all": {
+   "n2q": 168,
+   "n1q_pulses": 435,
+   "total_pulses": 603,
+   "depth_pulses": 233
+  },
+  "ibm_all_to_all_ancilla": {
+   "n2q": 36,
+   "n1q_pulses": 92,
+   "total_pulses": 128,
+   "depth_pulses": 93
+  },
+  "gokhale_estimate": {
+   "n_two_qutrit": 42,
+   "n_single": 49,
+   "total_pulses": 91
+  }
+ },
+ "8": {
+  "logic_ok": true,
+  "qutrit": {
+   "total_pulses": 15,
+   "n_two_qutrit": 15,
+   "n_single": 0,
+   "depth": 15,
+   "T_gates_ns": 2220,
+   "T_flux_ns": 140.0,
+   "T_total_ns": 2360.0
+  },
+  "ibm_all_to_all": {
+   "n2q": 224,
+   "n1q_pulses": 587,
+   "total_pulses": 811,
+   "depth_pulses": 277
+  },
+  "ibm_all_to_all_ancilla": {
+   "n2q": 42,
+   "n1q_pulses": 108,
+   "total_pulses": 150,
+   "depth_pulses": 109
+  },
+  "gokhale_estimate": {
+   "n_two_qutrit": 48,
+   "n_single": 56,
+   "total_pulses": 104
+  }
+ },
+ "9": {
+  "logic_ok": true,
+  "qutrit": {
+   "total_pulses": 17,
+   "n_two_qutrit": 17,
+   "n_single": 0,
+   "depth": 17,
+   "T_gates_ns": 2560,
+   "T_flux_ns": 160.0,
+   "T_total_ns": 2720.0
+  },
+  "ibm_all_to_all": {
+   "n2q": 288,
+   "n1q_pulses": 759,
+   "total_pulses": 1047,
+   "depth_pulses": 321
+  },
+  "ibm_all_to_all_ancilla": {
+   "n2q": 48,
+   "n1q_pulses": 124,
+   "total_pulses": 172,
+   "depth_pulses": 123
+  },
+  "gokhale_estimate": {
+   "n_two_qutrit": 54,
+   "n_single": 63,
+   "total_pulses": 117
+  }
+ },
+ "10": {
+  "logic_ok": true,
+  "qutrit": {
+   "total_pulses": 19,
+   "n_two_qutrit": 19,
+   "n_single": 0,
+   "depth": 19,
+   "T_gates_ns": 2900,
+   "T_flux_ns": 180.0,
+   "T_total_ns": 3080.0
+  },
+  "ibm_all_to_all": {
+   "n2q": 360,
+   "n1q_pulses": 951,
+   "total_pulses": 1311,
+   "depth_pulses": 365
+  },
+  "ibm_all_to_all_ancilla": {
+   "n2q": 54,
+   "n1q_pulses": 140,
+   "total_pulses": 194,
+   "depth_pulses": 139
+  },
+  "gokhale_estimate": {
+   "n_two_qutrit": 60,
+   "n_single": 70,
+   "total_pulses": 130
+  }
+ }
+}
