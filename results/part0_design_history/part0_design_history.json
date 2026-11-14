@@ -1,0 +1,162 @@
+{
+ "note": "Design-stage results kept for transparency. They were produced with an earlier prototype of the same lab-frame model (4 levels per transmon). The final pipeline (src/) uses only the 60/60/170 ns phase-aware pulses in src/core/gate_params.json; their lab-frame metrics are recomputed by p1_ideal_gates.py.",
+ "population_only": [
+  {
+   "gate": "C1X12",
+   "T_ns": 40,
+   "objective": "population only (3-parameter pulse)",
+   "lab_frame": {
+    "pop": 0.9908260785058324,
+    "leak": 0.001919900733691699,
+    "minpop": 0.9821238244703946,
+    "Fpro": 0.6064068967490028
+   }
+  },
+  {
+   "gate": "C2X01",
+   "T_ns": 50,
+   "objective": "population only (3-parameter pulse)",
+   "lab_frame": {
+    "pop": 0.9954014577103673,
+    "leak": 0.0006684658170071541,
+    "minpop": 0.9859810512592075,
+    "Fpro": 0.46951984722491014
+   }
+  },
+  {
+   "gate": "C2X12",
+   "T_ns": 130,
+   "objective": "population only (3-parameter pulse)",
+   "lab_frame": {
+    "pop": 0.9893772657803717,
+    "leak": 0.002794832637132674,
+    "minpop": 0.9809421147172197,
+    "Fpro": 0.76419527533816
+   }
+  }
+ ],
+ "phase_aware_duration_scan": [
+  {
+   "gate": "C1X12",
+   "T_ns": 50,
+   "objective": "process fidelity (phase-aware, 6-knot splines)",
+   "lab_frame": {
+    "Fpro": 0.9859728165572015,
+    "pop": 0.98743755603021,
+    "leak": 0.0046809736214172715,
+    "minpop": 0.9637519870602093
+   }
+  },
+  {
+   "gate": "C1X12",
+   "T_ns": 60,
+   "objective": "process fidelity (phase-aware, 6-knot splines)",
+   "lab_frame": {
+    "Fpro": 0.9939916104297408,
+    "pop": 0.9948140951903159,
+    "leak": 0.0008960214416957971,
+    "minpop": 0.9903664860000636
+   }
+  },
+  {
+   "gate": "C2X01",
+   "T_ns": 50,
+   "objective": "process fidelity (phase-aware, 6-knot splines)",
+   "lab_frame": {
+    "Fpro": 0.9939538857353004,
+    "pop": 0.994753575943099,
+    "leak": 0.0037217385462185015,
+    "minpop": 0.9655369346755593
+   }
+  },
+  {
+   "gate": "C2X01",
+   "T_ns": 60,
+   "objective": "process fidelity (phase-aware, 6-knot splines)",
+   "lab_frame": {
+    "Fpro": 0.9974113803101101,
+    "pop": 0.9986103425346562,
+    "leak": 0.0004747042789616302,
+    "minpop": 0.9957626847269561
+   }
+  },
+  {
+   "gate": "C2X12",
+   "T_ns": 100,
+   "objective": "process fidelity (phase-aware, 6-knot splines)",
+   "lab_frame": {
+    "Fpro": 0.9698660085418251,
+    "pop": 0.9885875384630657,
+    "leak": 0.003048590055128598,
+    "minpop": 0.9758225114980351
+   }
+  },
+  {
+   "gate": "C2X12",
+   "T_ns": 140,
+   "objective": "process fidelity (phase-aware, 6-knot splines)",
+   "lab_frame": {
+    "Fpro": 0.9654981344689039,
+    "pop": 0.9947438593592745,
+    "leak": 0.0030438324783813586,
+    "minpop": 0.9835887837046535
+   }
+  },
+  {
+   "gate": "C2X12",
+   "T_ns": 170,
+   "objective": "process fidelity (phase-aware, 6-knot splines)",
+   "lab_frame": {
+    "Fpro": 0.9815567170888303,
+    "pop": 0.9919832471116751,
+    "leak": 0.0028271463721170065,
+    "minpop": 0.9738411624924944
+   }
+  }
+ ],
+ "toffoli_one_at_a_time_sensitivity": {
+  "note": "Toffoli F_pro at T1 27/17 us, Tphi 40 us with ONE control error switched on at a time (10 quasi-static samples each; earlier prototype of the Part-4 simulator). Evidence for \"a 0.3 MHz residual coupling lowers the Toffoli F_pro by 1%\".",
+  "results": {
+   "flux noise on q1 (0.3 MHz)": {
+    "Fpro": 0.899139404868149,
+    "Fpro_std": 0.06473653528720039,
+    "succ": 0.9744968937443327
+   },
+   "flux noise on q1 (0.05 MHz)": {
+    "Fpro": 0.9626165155514507,
+    "Fpro_std": 0.0019262456819410586,
+    "succ": 0.9746753984171759
+   },
+   "fixed-qubit freq (0.05 MHz)": {
+    "Fpro": 0.9643937236674663,
+    "Fpro_std": 7.158583546285019e-05,
+    "succ": 0.974671042348443
+   },
+   "drive amplitude (1 %)": {
+    "Fpro": 0.9633846557242947,
+    "Fpro_std": 0.0014577731272779944,
+    "succ": 0.973683205965326
+   },
+   "coupler strength (2 %)": {
+    "Fpro": 0.9090278420573072,
+    "Fpro_std": 0.06635256820128262,
+    "succ": 0.9695383726678928
+   },
+   "residual coupling (0.3 MHz)": {
+    "Fpro": 0.9542853294722645,
+    "Fpro_std": 1.1102230246251565e-16,
+    "succ": 0.9741888206385407
+   },
+   "coupler pulse filter (1.5 ns)": {
+    "Fpro": 0.9530268446166442,
+    "Fpro_std": 0.0,
+    "succ": 0.9753877203867706
+   },
+   "none (decoherence only)": {
+    "Fpro": 0.964520014986217,
+    "Fpro_std": 0.0,
+    "succ": 0.9746817625594402
+   }
+  }
+ }
+}
