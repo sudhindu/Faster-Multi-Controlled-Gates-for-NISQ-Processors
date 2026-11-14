@@ -1,0 +1,284 @@
+{
+ "FakeKingston": {
+  "2": {
+   "duration_ns": 1060.0000000000002,
+   "active_qubits": 3,
+   "n2q": 9,
+   "n1q_pulses": 24,
+   "total_pulses": 33,
+   "depth_pulses": 23
+  },
+  "3": {
+   "duration_ns": 2488.000000000001,
+   "active_qubits": 4,
+   "n2q": 22,
+   "n1q_pulses": 55,
+   "total_pulses": 77,
+   "depth_pulses": 53
+  },
+  "4": {
+   "duration_ns": 3580.0000000000014,
+   "active_qubits": 5,
+   "n2q": 36,
+   "n1q_pulses": 77,
+   "total_pulses": 113,
+   "depth_pulses": 77
+  },
+  "5": {
+   "duration_ns": 5764.000000000001,
+   "active_qubits": 6,
+   "n2q": 58,
+   "n1q_pulses": 126,
+   "total_pulses": 184,
+   "depth_pulses": 125
+  },
+  "6": {
+   "duration_ns": 6416.000000000003,
+   "active_qubits": 7,
+   "n2q": 78,
+   "n1q_pulses": 172,
+   "total_pulses": 250,
+   "depth_pulses": 142
+  },
+  "7": {
+   "duration_ns": 13376.000000000053,
+   "active_qubits": 8,
+   "n2q": 168,
+   "n1q_pulses": 349,
+   "total_pulses": 517,
+   "depth_pulses": 283
+  },
+  "8": {
+   "duration_ns": 14156.000000000062,
+   "active_qubits": 9,
+   "n2q": 155,
+   "n1q_pulses": 353,
+   "total_pulses": 508,
+   "depth_pulses": 304
+  }
+ },
+ "FakeNighthawk": {
+  "2": {
+   "duration_ns": 1060.0000000000002,
+   "active_qubits": 3,
+   "n2q": 9,
+   "n1q_pulses": 21,
+   "total_pulses": 30,
+   "depth_pulses": 23
+  },
+  "3": {
+   "duration_ns": 2488.000000000001,
+   "active_qubits": 4,
+   "n2q": 22,
+   "n1q_pulses": 56,
+   "total_pulses": 78,
+   "depth_pulses": 53
+  },
+  "4": {
+   "duration_ns": 2948.000000000001,
+   "active_qubits": 5,
+   "n2q": 33,
+   "n1q_pulses": 72,
+   "total_pulses": 105,
+   "depth_pulses": 64
+  },
+  "5": {
+   "duration_ns": 5532.000000000002,
+   "active_qubits": 8,
+   "n2q": 57,
+   "n1q_pulses": 120,
+   "total_pulses": 177,
+   "depth_pulses": 120
+  },
+  "6": {
+   "duration_ns": 5684.000000000002,
+   "active_qubits": 8,
+   "n2q": 72,
+   "n1q_pulses": 156,
+   "total_pulses": 228,
+   "depth_pulses": 127
+  },
+  "7": {
+   "duration_ns": 11244.000000000038,
+   "active_qubits": 8,
+   "n2q": 105,
+   "n1q_pulses": 226,
+   "total_pulses": 331,
+   "depth_pulses": 249
+  },
+  "8": {
+   "duration_ns": 12272.000000000051,
+   "active_qubits": 9,
+   "n2q": 131,
+   "n1q_pulses": 276,
+   "total_pulses": 407,
+   "depth_pulses": 271
+  }
+ },
+ "FakeFez": {
+  "2": {
+   "duration_ns": 1092.0,
+   "active_qubits": 3,
+   "n2q": 9,
+   "n1q_pulses": 23,
+   "total_pulses": 32,
+   "depth_pulses": 23
+  },
+  "3": {
+   "duration_ns": 2592.000000000001,
+   "active_qubits": 4,
+   "n2q": 22,
+   "n1q_pulses": 56,
+   "total_pulses": 78,
+   "depth_pulses": 53
+  },
+  "4": {
+   "duration_ns": 3708.000000000002,
+   "active_qubits": 5,
+   "n2q": 36,
+   "n1q_pulses": 77,
+   "total_pulses": 113,
+   "depth_pulses": 77
+  },
+  "5": {
+   "duration_ns": 5940.000000000012,
+   "active_qubits": 6,
+   "n2q": 58,
+   "n1q_pulses": 125,
+   "total_pulses": 183,
+   "depth_pulses": 125
+  },
+  "6": {
+   "duration_ns": 6504.000000000015,
+   "active_qubits": 7,
+   "n2q": 78,
+   "n1q_pulses": 170,
+   "total_pulses": 248,
+   "depth_pulses": 141
+  },
+  "7": {
+   "duration_ns": 14004.000000000018,
+   "active_qubits": 8,
+   "n2q": 168,
+   "n1q_pulses": 350,
+   "total_pulses": 518,
+   "depth_pulses": 283
+  },
+  "8": {
+   "duration_ns": 14676.00000000002,
+   "active_qubits": 9,
+   "n2q": 155,
+   "n1q_pulses": 354,
+   "total_pulses": 509,
+   "depth_pulses": 304
+  }
+ },
+ "FakeTorino": {
+  "2": {
+   "duration_ns": 1132.0000000000005,
+   "active_qubits": 3,
+   "n2q": 9,
+   "n1q_pulses": 24,
+   "total_pulses": 33,
+   "depth_pulses": 23
+  },
+  "3": {
+   "duration_ns": 2512.000000000001,
+   "active_qubits": 4,
+   "n2q": 22,
+   "n1q_pulses": 54,
+   "total_pulses": 76,
+   "depth_pulses": 53
+  },
+  "4": {
+   "duration_ns": 3580.000000000001,
+   "active_qubits": 5,
+   "n2q": 37,
+   "n1q_pulses": 81,
+   "total_pulses": 118,
+   "depth_pulses": 77
+  },
+  "5": {
+   "duration_ns": 5928.000000000002,
+   "active_qubits": 6,
+   "n2q": 58,
+   "n1q_pulses": 129,
+   "total_pulses": 187,
+   "depth_pulses": 126
+  },
+  "6": {
+   "duration_ns": 7516.000000000003,
+   "active_qubits": 7,
+   "n2q": 90,
+   "n1q_pulses": 207,
+   "total_pulses": 297,
+   "depth_pulses": 164
+  },
+  "7": {
+   "duration_ns": 14652.000000000067,
+   "active_qubits": 8,
+   "n2q": 158,
+   "n1q_pulses": 335,
+   "total_pulses": 493,
+   "depth_pulses": 316
+  },
+  "8": {
+   "duration_ns": 14236.000000000062,
+   "active_qubits": 9,
+   "n2q": 155,
+   "n1q_pulses": 354,
+   "total_pulses": 509,
+   "depth_pulses": 304
+  }
+ },
+ "FakeKingston_ancilla": {
+  "3": {
+   "duration_ns": 2048.0000000000014,
+   "active_qubits": 6,
+   "n2q": 18,
+   "n1q_pulses": 43,
+   "total_pulses": 61,
+   "depth_pulses": 46
+  },
+  "4": {
+   "duration_ns": 3208.0000000000014,
+   "active_qubits": 7,
+   "n2q": 28,
+   "n1q_pulses": 60,
+   "total_pulses": 88,
+   "depth_pulses": 71
+  },
+  "5": {
+   "duration_ns": 4136.000000000001,
+   "active_qubits": 9,
+   "n2q": 38,
+   "n1q_pulses": 90,
+   "total_pulses": 128,
+   "depth_pulses": 91
+  },
+  "6": {
+   "duration_ns": 5128.000000000001,
+   "active_qubits": 11,
+   "n2q": 46,
+   "n1q_pulses": 108,
+   "total_pulses": 154,
+   "depth_pulses": 113
+  },
+  "7": {
+   "duration_ns": 5824.000000000001,
+   "active_qubits": 12,
+   "n2q": 60,
+   "n1q_pulses": 143,
+   "total_pulses": 203,
+   "depth_pulses": 128
+  },
+  "8": {
+   "duration_ns": 7256.000000000001,
+   "active_qubits": 13,
+   "n2q": 82,
+   "n1q_pulses": 194,
+   "total_pulses": 276,
+   "depth_pulses": 157
+  }
+ }
+}
